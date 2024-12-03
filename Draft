@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            background-color: #FFFFFF;
+            margin: 50px;
+            font-family: Calibri, sans-serif;
+        }
+        h3 {
+            color: #2E86C1;
+        }
+        h4 {
+            color: #1F618D;
+        }
+        p {
+            line-height: 1.6;
+        }
+        hr {
+            border: 1px solid #2E86C1;
+        }
+        .table-of-contents {
+            margin-bottom: 20px;
+        }
+        .table-of-contents a {
+            text-decoration: none;
+            color: #1F618D;
+        }
+        .table-of-contents a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Conference Paper</title>
+</head>
+<body>
+
+    <h1>The use of Unmanned Autonomous Systems in the Modern World</h1>
+    <h4>ENG0018 Computer Laboratory 2023/24</h4>
+    <h4>Student URN: 6859211</h4>
+
+    <div class="table-of-contents">
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#Abstract">Abstract</a></li>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Medicine">Medicine</a></li>
+            <li><a href="#Military">Military</a></li>
+            <li><a href="#Aircraft">Aircraft</a></li>
+            <li><a href="#Agriculture">Agriculture</a></li>
+            <li><a href="#References">References</a></li>
+        </ul>
+    </div>
+
+    <h3 id="Abstract">Abstract</h3>
+    <hr>
+    <p>
+        The use of unmanned autonomous systems has been transforming so many industries in today’s world, allowing for better operational efficiency, their capabilities and precision. They fulfil complex tasks without the use of human involvement, and their uses range in industries such as medicine and agriculture, to military use and aircraft. For the medical sector, the AtraxM drone in Poland helps with emergency situations, being able to help locate people in large disasters and transport medical equipment to harsh terrains where it would initially be inaccessible. In agriculture, these systems are installed to help farmers with harvesting, pest control efficiency and sowing. Meanwhile, for militaries, it increases operational efficiency in factories to produce new-generation UAVs to help prevent future crises from happening, and for the aircraft industry, AI-powered platforms are used to monitor the status of aircraft, allowing for optimal aircraft safety.   
+    </p>
+
+    <h3 id="Introduction">Introduction</h3>
+    <hr>
+    <p>
+        Technology advancements in today’s modern world has reshaped the way we all live specifically unmanned autonomous systems. These are man-made systems, that can carry out complex tasks with extreme efficiency and precision without human intervention (Zhang, T. et al. (2017)). Their applications range from agricultural tasks, where drones are used for monitoring crops; medicines, where drones are used to support in rescue operations (Konert, Smereka and Szarpak, 2019)), aircraft (Aviation Week Network, (2023/24)), and finally to militaries across the world.  
+    </p>
+
+    <h3 id="Medicine">Medicine</h3>
+    <hr>
+    <p>
+        The medical industry has been significantly impacted by the used of unmanned autonomous systems. The Polish Air Force Institute of Technology has engineered a drone called AtraxM (Konert, Smereka and Szarpak, 2019), which is used to identify a place of incidence, the scale of it, and the amount of victims around the area, allowing emergency services to be informed of everything before they arrive. This makes it a support drone. The drone has been equipped with medical equipment, such as first aid kits, medicines for the required people in the area, and is able to deliver blood (Amukele et al., 2017). This will make the process of saving lives much easier if more medical professionals are able to be transported with less equipment on the ground, while all equipment is autonomously transported via air, also making it easier to transfer the gear to harsher terrain (Konert, Smereka and Szarpak, 2019). It has been statistically proven that only 1 of 10 people survive cardiac arrest outside of a hospital, and so the drone would be able to supply these a lot more efficiently, saving more lives (Konert, Smereka and Szarpak, 2019).
+    </p>
+
+    <h3 id="Military">Military</h3>
+    <hr>
+    <p>
+        Autonomous systems in the military are crucial for enhancing operational and production efficiency. Since 2014, a company called Divergent Technologies has been designing an automated factory, consisting of 23 robotic arms so far, which are programmed to design, print, and glue military equipment, such as drones and missiles (Aviation Week Network, 2024) that are equipped with new generation equipment. An example of this is the company plans on deploying many autonomous UAVs by the end of August 2025 (Aviation Week Network, 2024). Due to this automated factory, it will allow the US military to be supplied with high-tech, tactical equipment at much faster, cost-effective rates, which would decrease the chances of any disasters from happening in the future. An example of a disaster that could have been mitigated if the US Military was supplied with higher-tech equipment would be the event that happened on the 1st October, 2017 in Las Vegas, where a gunman, Stephen Paddock, shot 59 people dead, whilst injuring more than 500 people from a hotel, at a country music festival below the hotel (Wallace and Loffi, 2017). This event was military protected, so if more UAVs with better guidance systems (systems proposed in (Wallace and Loffi, 2017)) were supplied, then the terrible incident would have had a much lower chance of happening, as the gunman would have been spotted before even being able to open fire, saving many lives (Marshall et al., 2021).
+    </p>
+
+    <h3 id="Aircraft">Aircraft</h3>
+    <hr>
+    <p>
+        Unmanned systems are becoming more and more talked about in the aerospace industry. It will allow for the improvement in operational efficiency, enabling more efficient data collection. “Since ChatGPT went viral in late 2022, the artificial intelligence craze has permeated discussions in nearly every industry worldwide” (Aviation Week Network, (2023)). Due to this release of new AI technology, it has caused for companies, such as Basetwo AI, to be developing new technologies to help the aviation industry. This is an AI platform, that connects different components and sources of data in an aircraft to then create simulation models to show if these aircraft are working at normal behaviour, even with the smallest defects that would never have been detected by any human inspection. This saves a lot of time and money for aerospace companies, ensuring safety and efficiency of the aircrafts, whilst “increase[ing] its utilization rate”(Aviation Week Network, (2023)).
+    </p>
+
+    <h3 id="Agriculture">Agriculture</h3>
+    <hr>
+    <p>
+       The number of farmers in today’s world is decreasing, as the children of farming households are moving out as they are not interested. Since farmers play a pivotal role in the world by supplying us with food, cutting-edge autonomous technologies are being developed into helping this agricultural sector. One of the primary examples is the tractor. The advantage of the autonomous systems is that current tractors can be fitted with these self-driving systems, which can allow for farmers to get on with other jobs while the tractor does its pre-assigned job, but also these jobs can be done at any-time, so night and day, and also for a much longer amount of time, since humans need to rest (Harris, 2023). This can be visualised in Figure 1 below.
+In addition, AI-enhanced sensors have been fitted to certain machinery in the agricultural industry. This therefore can allow unmanned systems to avoid certain obstacles. A great example of this would be autonomous robots that are able to evaluate fruits and vegetables such as ripeness to then execute the harvesting, as shown in Figure 2 below (Harris, 2023).
+Moreover, autonomous UAV drones can also be programmed and fitted with equipment to disperse seeds over large farming areas by “using georeferencing data for accurate placement” (Harris, 2023). The same can be done with pesticides, fertilizers, and so on.
+
+    </p>
+
+    <h3 id="References">References</h3>
+    <hr>
+    <p>
+        <!-- References go here -->
+    </p>
+
+</body>
+</html>
