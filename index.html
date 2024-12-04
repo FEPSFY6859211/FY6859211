@@ -102,7 +102,7 @@ Moreover, autonomous UAV drones can also be programmed and fitted with equipment
 
 <div class="image-container">
         <img src="Screenshot1.jpg" alt="Autonomous Robotic arm" width="500" height="300">
-        <p><span class="theFigureCaption">Figure 2: Autonomous robotic arm enhanced by AI that can evaluate ripeness of fruits and vegetables, and be able to pick them if ready</span></p>
+        <p id="Figure2_InText">><span class="theFigureCaption">Figure 2: Autonomous robotic arm enhanced by AI that can evaluate ripeness of fruits and vegetables, and be able to pick them if ready</span></p>
     </div>
   <style>
     .theFigureCaption {
@@ -207,8 +207,9 @@ Overall, unmanned autonomous systems are revolutionizing all these industries, a
     const AircraftCount = displayWordCount("Aircraft_InText");
     const AgricultureCount = displayWordCount("Agriculture_InText");
     const ConclusionCount = displayWordCount("Conclusion_InText");
+    const Figure2Count = displayWordCount("Figure2_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + MedicineCount + MilitaryCount + AircraftCount + AgricultureCount + ConclusionCount;
+    const totalWordCount = IntroductionCount + MedicineCount + MilitaryCount + AircraftCount + AgricultureCount + ConclusionCount + Figure2Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
